@@ -1,7 +1,7 @@
 <ion-view view-title="Playlists">
   <ion-content>
     <ion-list>
-      INPUT FIELD: <input type="text" />
+      INPUT FIELD: <input type="text" style="border: 1px solid red; background-color: yellow;" />
       <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
         {{playlist.title}}
       </ion-item>
